@@ -1,6 +1,6 @@
 ## 1. USERS Table ERD
 
-| :users:  | :type:       | :key:       |
+| users    | type         | :key:       |
 | -------- | ------------ | ----------- |
 | id       | Integer      | PRIMARY KEY |
 | user_id  | varchar(50)  |             |
@@ -8,8 +8,9 @@
 
 ## 2. ANSWERS Table ERD
 
-| :answers: | :type:       | :key:       |
-| --------- | ------------ | ----------- |
-| id        | Integer      | PRIMARY KEY |
-| category  | varchar(50)  |             |
-| answer    | varchar(100) |             |
+| answers  | type         | :key:       |
+| -------- | ------------ | ----------- |
+| id       | Integer      | PRIMARY KEY |
+| category | varchar(50)  |             |
+| answer   | varchar(100) |             |
+
